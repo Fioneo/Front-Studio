@@ -893,7 +893,7 @@ body.modal-open {
         display: block;
     }
     .subscribe-form__input {
-        max-width: 368px;
+        margin: 0 auto;
         display: block;
         margin-bottom: 16px;
     }
