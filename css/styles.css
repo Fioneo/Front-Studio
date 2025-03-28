@@ -822,7 +822,7 @@ body.modal-open {
     cursor: pointer;
     transition: background-color var(--animation);
 }
-@media screen and (max-width: 428px){
+@media screen and (max-width: 526px){
     .nav, .contacts {
         display: none;
         margin: 0;
