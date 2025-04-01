@@ -1104,5 +1104,8 @@ body.modal-open {
     .mobile {
         display: none;
     }
+    .mobile-menu {
+        display: none;
+    }
     
 }
