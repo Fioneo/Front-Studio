@@ -902,6 +902,7 @@ body.modal-open {
         display: flex;
         gap: 56px;
         justify-content: flex-start;
+        list-style: none;
     }
     .nav__list-mobile, .contacts__link-mobile {
         list-style: none;
