@@ -16,6 +16,45 @@
                     <span class="logo__web">WEB</span>STUDIO
                 </a>
                 <nav class="nav">
+                    <div class="mobile">
+                        <button type="button" class="mobile__button" id="mobileButton">
+                            <img class="open-mobile" src="/img/mobile/charm_menu-hamburger.svg" alt="Меню">
+                            <img class="close-mobile" src="/img/icons/close-black.svg" alt="Закрыть">
+                        </button>                        
+                        <div class="mobile-menu" id="mobileMenu">
+                        <ul class="nav__list-mobile">
+                            <li class="nav__item-mobile"><a href="index.html" class="nav__link-mobile">Studio</a></li>
+                            <li class="nav__item-mobile"><a href="portfolio.html" class="nav__link-mobile nav__link--active-mobile">Portfolio</a></li>
+                            <li class="nav__item-mobile"><a href="#" class="nav__link-mobile">Contacts</a></li>
+                        </ul>
+                        <div class="contacts-mobile">
+                            <a href="tel:+11000111111" class="contacts__link-mobile blue">+11 (000) 111-11-11</a>
+                            <a href="mailto:info@devstudio.com" class="contacts__link-mobile">info@devstudio.com</a>
+                        </div>
+                        <ul class="social">
+                            <li class="social__item-mobile">
+                                <a href="#" class="social__link" aria-label="Instagram">
+                                    <img src="img/icons/instagram.svg" alt="Instagram" width="16" height="16" class="social__icon">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link" aria-label="Twitter">
+                                    <img src="img/icons/twitter.svg" alt="Twitter" width="16" height="16" class="social__icon">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link" aria-label="Facebook">
+                                    <img src="img/icons/facebook.svg" alt="Facebook" width="16" height="16" class="social__icon">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link" aria-label="LinkedIn">
+                                    <img src="img/icons/linkedin.svg" alt="LinkedIn" width="16" height="16" class="social__icon">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
                     <ul class="nav__list">
                         <li class="nav__item"><a href="index.html" class="nav__link">Studio</a></li>
                         <li class="nav__item"><a href="portfolio.html" class="nav__link nav__link--active">Portfolio</a></li>
@@ -301,5 +340,6 @@
     </div>
     
     <script src="js/modal.js"></script>
+    <script src="js/burger.js"></script>
 </body>
 </html> 
